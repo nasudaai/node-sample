@@ -1,8 +1,9 @@
+//command line args
 const args = ["a", "b", "c"];
 
 function reStr(args) {
   
-  const string = args.toString();
+  const string = args.join(", ");
   return string;
 };
 
